@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Application", "1.Application", "{9E7C13D8-8B86-4508-9C4C-1F73673B3B81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{251DD1B9-4B08-42CA-B6BB-82D90BBE48CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Infra", "3.Infra", "{A599CEE0-A718-4EBB-AAAC-99F8991318A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Shared", "4.Shared", "{A398479C-7C4F-4762-ADDA-4AF20CD01E18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Test", "5.Test", "{03849B69-4750-40F0-A69F-FB6618114188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aliquot.Kinvo.Application", "Src\Aliquot.Kinvo.Application\Aliquot.Kinvo.Application.csproj", "{3ACA7B7E-6660-47C4-B69B-A261E434BB44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aliquot.Kinvo. Domain", "Src\Aliquot.Kinvo. Domain\Aliquot.Kinvo. Domain.csproj", "{9C6ED3E0-3D79-4C80-93FE-B3682DB1F51A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1.Data", "3.1.Data", "{DB9F59E8-FF46-4DAA-89F3-6403C4F87CEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2.IoC", "3.2.IoC", "{53D59CA6-45AD-46CD-A265-56B130DA2334}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aliquot.Kinvo.Infra.IoC", "Src\Aliquot.Kinvo.Infra.IoC\Aliquot.Kinvo.Infra.IoC.csproj", "{EFFE93E2-0786-4212-A988-5AAED45F7D9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aliquot.Kinvo.Infra.Data", "Src\Aliquot.Kinvo.Infra.Data\Aliquot.Kinvo.Infra.Data.csproj", "{33E48AD4-D7E6-43FC-98AB-45D21437D702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aliquot.Kinvo.Shared", "Src\Aliquot.Kinvo.Shared\Aliquot.Kinvo.Shared.csproj", "{2EE6301E-B1B7-4CBB-9485-57DFE1D70806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aliquot.Kinvo.Test", "Src\Aliquot.Kinvo.Test\Aliquot.Kinvo.Test.csproj", "{193D1A99-915A-45C9-BD40-8220384B6DD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ACA7B7E-6660-47C4-B69B-A261E434BB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ACA7B7E-6660-47C4-B69B-A261E434BB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ACA7B7E-6660-47C4-B69B-A261E434BB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ACA7B7E-6660-47C4-B69B-A261E434BB44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6ED3E0-3D79-4C80-93FE-B3682DB1F51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6ED3E0-3D79-4C80-93FE-B3682DB1F51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6ED3E0-3D79-4C80-93FE-B3682DB1F51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6ED3E0-3D79-4C80-93FE-B3682DB1F51A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFFE93E2-0786-4212-A988-5AAED45F7D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFFE93E2-0786-4212-A988-5AAED45F7D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFFE93E2-0786-4212-A988-5AAED45F7D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFFE93E2-0786-4212-A988-5AAED45F7D9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E48AD4-D7E6-43FC-98AB-45D21437D702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E48AD4-D7E6-43FC-98AB-45D21437D702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E48AD4-D7E6-43FC-98AB-45D21437D702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E48AD4-D7E6-43FC-98AB-45D21437D702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE6301E-B1B7-4CBB-9485-57DFE1D70806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE6301E-B1B7-4CBB-9485-57DFE1D70806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE6301E-B1B7-4CBB-9485-57DFE1D70806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE6301E-B1B7-4CBB-9485-57DFE1D70806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{193D1A99-915A-45C9-BD40-8220384B6DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193D1A99-915A-45C9-BD40-8220384B6DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193D1A99-915A-45C9-BD40-8220384B6DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193D1A99-915A-45C9-BD40-8220384B6DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3ACA7B7E-6660-47C4-B69B-A261E434BB44} = {9E7C13D8-8B86-4508-9C4C-1F73673B3B81}
+		{9C6ED3E0-3D79-4C80-93FE-B3682DB1F51A} = {251DD1B9-4B08-42CA-B6BB-82D90BBE48CB}
+		{DB9F59E8-FF46-4DAA-89F3-6403C4F87CEF} = {A599CEE0-A718-4EBB-AAAC-99F8991318A5}
+		{53D59CA6-45AD-46CD-A265-56B130DA2334} = {A599CEE0-A718-4EBB-AAAC-99F8991318A5}
+		{EFFE93E2-0786-4212-A988-5AAED45F7D9C} = {53D59CA6-45AD-46CD-A265-56B130DA2334}
+		{33E48AD4-D7E6-43FC-98AB-45D21437D702} = {DB9F59E8-FF46-4DAA-89F3-6403C4F87CEF}
+		{2EE6301E-B1B7-4CBB-9485-57DFE1D70806} = {A398479C-7C4F-4762-ADDA-4AF20CD01E18}
+		{193D1A99-915A-45C9-BD40-8220384B6DD7} = {03849B69-4750-40F0-A69F-FB6618114188}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60B9E0AD-0C20-4F63-B6F6-AF50983F0372}
+	EndGlobalSection
+EndGlobal
